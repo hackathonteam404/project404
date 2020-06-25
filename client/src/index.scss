@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Override default variables before the import
+$primary: #1A1F71;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: $primary;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container-home-1 {
+  background-color: #F9F6FF;
+  min-height: 20vh;
+}
+
+.container-home-2 {
+  background-color: #F7B600;
+  min-height: 80vh;
+}
+
+.container-home-3 {
+  background-color: $primary;
+  min-height: 20vh;
+}
+
+.image-1 {
+  height: 60vh;
+}

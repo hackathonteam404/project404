@@ -1,6 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import './index.scss';
+
+import { Container, Row, Col, Image } from 'react-bootstrap';
+import NavigationBar from './components/NavigationBar';
+import image from './resources/image.svg';
 
 export class App extends React.Component {
   constructor(props) {
@@ -24,11 +28,21 @@ export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>Id: {this.state.id}</p>
-          <p>Content: {this.state.content}</p>
-        </header>
+        <NavigationBar />
+        <Container fluid className="container-home-1">
+          <Row>
+            <Col></Col>
+            <Col>
+              <Image fluid src={image} className="image-1"/>
+            </Col>
+          </Row>
+        </Container>
+        <Container fluid className="container-home-2">
+          <Row></Row>
+        </Container>
+        <Container fluid className="container-home-3">
+          <Row></Row>
+        </Container>
       </div>
     );
   }
