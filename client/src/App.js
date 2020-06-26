@@ -1,10 +1,9 @@
 import React from 'react';
-
-import './index.scss';
-
-import { Container, Row, Col, Image } from 'react-bootstrap';
 import NavigationBar from './components/NavigationBar';
-import image from './resources/image.svg';
+import HomeUpperContainer from './components/HomeUpperContainer';
+import HomeLowerContainer from './components/HomeLowerContainer';
+import Footer from './components/Footer';
+import './index.scss';
 
 export class App extends React.Component {
   constructor(props) {
@@ -28,21 +27,10 @@ export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NavigationBar />
-        <Container fluid className="container-home-1">
-          <Row>
-            <Col></Col>
-            <Col>
-              <Image fluid src={image} className="image-1"/>
-            </Col>
-          </Row>
-        </Container>
-        <Container fluid className="container-home-2">
-          <Row></Row>
-        </Container>
-        <Container fluid className="container-home-3">
-          <Row></Row>
-        </Container>
+        <NavigationBar/>
+        <HomeUpperContainer/>
+        <HomeLowerContainer/>
+        <Footer/>
       </div>
     );
   }

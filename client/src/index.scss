@@ -28,21 +28,26 @@ $primary: #1A1F71;
   color: white;
 }
 
-.container-home-1 {
+.container-1 {
   background-color: #FBF9FD;
   min-height: 20vh;
 }
 
-.container-home-2 {
+.container-2 {
   background-color: #F7B600;
   min-height: 80vh;
 }
 
-.container-home-3 {
+.container-3 {
   background-color: $primary;
-  min-height: 20vh;
+  color: white;
+  min-height: 10vh;
 }
 
 .image-1 {
   height: 60vh;
+}
+
+.webmap {
+  height: 80vh;
 }
