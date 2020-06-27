@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.5.0",
-    "esri-loader": "^2.14.0",
+    "google-map-react": "^1.1.7",
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",

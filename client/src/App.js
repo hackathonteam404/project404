@@ -20,6 +20,12 @@ export class App extends React.Component {
     });
   }
 
+  testAPI = async (zip) => {
+    const response = await fetch('http://localhost:8080/test?zip=' + zip);
+    const body = await response.json();
+    this.setState({center: body.results[0].geometry.location});
+  }
+
   componentDidMount() {
     this.getGreeting();
   }
@@ -28,8 +34,8 @@ export class App extends React.Component {
     return (
       <div className="App">
         <NavigationBar/>
-        <HomeUpperContainer/>
-        <HomeLowerContainer/>
+        <HomeUpperContainer test={this.testAPI}/>
+        <HomeLowerContainer center={this.state.center}/>
         <Footer/>
       </div>
     );

@@ -4,6 +4,14 @@ import image from '../resources/image.svg';
 import '../index.scss';
 
 export class HomeUpperContainer extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    handleClick = () => {
+        this.props.test(this.inputNode.value);
+    }
+
     render() {
         return (
             <Container fluid className="container-1">
@@ -14,8 +22,8 @@ export class HomeUpperContainer extends React.Component {
                         <Row>
                             <Col>
                                 <Form inline style={{justifyContent: 'center'}}>
-                                    <FormControl type="text" placeholder="Enter your location or ZIP" className="mr-sm-2" />
-                                    <Button variant="primary">Search</Button>
+                                    <FormControl type="text" placeholder="Enter your location or ZIP" className="mr-sm-2" ref={node => this.inputNode = node}/>
+                                    <Button variant="primary" onClick={this.handleClick}>Search</Button>
                                 </Form>
                             </Col>
                         </Row>

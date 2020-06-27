@@ -1,16 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { WebMapView } from './WebMapView';
 import '../index.scss';
+import SimpleMap from './SimpleMap';
 
 export class HomeLowerContainer extends React.Component {
     render() {
         return (
             <Container fluid className="container-2">
                 <Row>
-                    <Col>
-                        <WebMapView/>
-                    </Col>
+                    <Col><SimpleMap center={this.props.center}/></Col>
                     <Col></Col>
                 </Row>
             </Container>
