@@ -20,6 +20,9 @@ public class Project404Application {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/greeting").allowedOrigins("http://localhost:3000");
                 registry.addMapping("/test").allowedOrigins("http://localhost:3000");
+                registry.addMapping("/geocode").allowedOrigins("http://localhost:3000");
+                registry.addMapping("/locate").allowedOrigins("http://localhost:3000");
+
             }
         };
     }
