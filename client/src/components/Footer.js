@@ -8,7 +8,7 @@ export class Footer extends React.Component {
             <Container fluid className="container-3">
                 <Row fluid style={{paddingTop: '4vh'}}>
                     <Col>
-                        <strong>Stay healthy.</strong>
+                        <strong></strong>
                     </Col>
                 </Row>
             </Container>

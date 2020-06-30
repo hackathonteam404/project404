@@ -20,7 +20,7 @@ export class App extends React.Component {
     });
   }
 
-  testAPI = async (zip) => {
+  getLatLng = async (zip) => {
     const response = await fetch('http://localhost:8080/test?zip=' + zip);
     const body = await response.json();
     this.setState({center: body.results[0].geometry.location});
@@ -34,7 +34,7 @@ export class App extends React.Component {
     return (
       <div className="App">
         <NavigationBar/>
-        <HomeUpperContainer test={this.testAPI}/>
+        <HomeUpperContainer getLatLng={this.getLatLng}/>
         <HomeLowerContainer center={this.state.center}/>
         <Footer/>
       </div>

@@ -9,7 +9,7 @@ export class HomeUpperContainer extends React.Component {
     }
 
     handleClick = () => {
-        this.props.test(this.inputNode.value);
+        this.props.getLatLng(this.inputNode.value);
     }
 
     render() {
