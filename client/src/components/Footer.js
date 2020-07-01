@@ -6,9 +6,9 @@ export class Footer extends React.Component {
     render() {
         return (
             <Container fluid className="container-3">
-                <Row fluid style={{paddingTop: '4vh'}}>
+                <Row fluid style={{paddingTop: '3.5vh'}}>
                     <Col>
-                        <strong></strong>
+                        <strong>VISA</strong>
                     </Col>
                 </Row>
             </Container>
