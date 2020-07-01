@@ -4,10 +4,6 @@ import image from '../resources/image.svg';
 import '../index.scss';
 
 export class HomeUpperContainer extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     handleClick = () => {
         this.props.getLatLng(this.inputNode.value);
     }
