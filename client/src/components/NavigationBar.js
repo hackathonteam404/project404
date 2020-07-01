@@ -11,6 +11,7 @@ export class NavigationBar extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <Nav.Link href="#p1">Store Search</Nav.Link>
+                        <Nav.Link href="#p2">About</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
