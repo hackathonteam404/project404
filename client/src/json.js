@@ -210,6 +210,213 @@ export const JSON1 = {
                     "visaEnterpriseName": "WETZEL'S PRETZELS",
                     "primaryMerchantCategoryCode": "5814"
                 }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "3.2696044",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "1101 TARAVAL ST",
+                    "merchantPostalCode": "94116-2441",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In more than 365 days",
+                    "merchantCategoryCode": [
+                        "5462",
+                        "5814"
+                    ],
+                    "distance": "1.3 m",
+                    "visaMerchantName": "FRENCH BAKERY",
+                    "visaStoreName": "FRENCH BAKERY INC",
+                    "locationAddressLatitude": "37.742982",
+                    "locationAddressLongitude": "-122.477831",
+                    "visaStoreId": "154653437",
+                    "visaMerchantId": "18511505",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "BAKERIES",
+                        "FAST FOOD RESTAURANTS"
+                    ],
+                    "visaEnterpriseName": "THE FRENCH BAKERY",
+                    "primaryMerchantCategoryCode": "5462"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.025483",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "890 GENEVA AVE",
+                    "merchantPostalCode": "94112-3329",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In more than 365 days",
+                    "merchantCategoryCode": [
+                        "5814"
+                    ],
+                    "distance": "1.48 m",
+                    "visaMerchantName": "POPEYES CHICKEN",
+                    "visaStoreName": "POPEYES CHICKEN &amp; BISCUITS",
+                    "locationAddressLatitude": "37.716634",
+                    "locationAddressLongitude": "-122.441201",
+                    "visaStoreId": "191521290",
+                    "visaMerchantId": "26909705",
+                    "merchantUrl": [
+                        "www.popeyes.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "FAST FOOD RESTAURANTS"
+                    ],
+                    "visaEnterpriseName": "POPEYES LOUISIANA KITCHEN",
+                    "primaryMerchantCategoryCode": "5814"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.025483",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "955 GENEVA AVE",
+                    "merchantPostalCode": "94112-3423",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC",
+                        "MOTO"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5814"
+                    ],
+                    "distance": "1.55 m",
+                    "visaMerchantName": "LITTLE CAESARS PIZZA",
+                    "visaStoreName": "LITTLE CAESARS PIZZA",
+                    "locationAddressLatitude": "37.715999",
+                    "locationAddressLongitude": "-122.440171",
+                    "visaStoreId": "148887497",
+                    "visaMerchantId": "22910109",
+                    "merchantUrl": [
+                        "www.littlecaesars.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "FAST FOOD RESTAURANTS"
+                    ],
+                    "visaEnterpriseName": "LITTLE CAESARS PIZZA",
+                    "primaryMerchantCategoryCode": "5814"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.025483",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "1523 SLOAT BLVD",
+                    "merchantPostalCode": "94132-1222",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5814"
+                    ],
+                    "distance": "1.8 m",
+                    "visaMerchantName": "CHIPOTLE MEXICAN GRILL",
+                    "visaStoreName": "CHIPOTLE MEXICAN GRILL",
+                    "locationAddressLatitude": "37.734037",
+                    "locationAddressLongitude": "-122.489569",
+                    "visaStoreId": "143244925",
+                    "visaMerchantId": "14837334",
+                    "merchantUrl": [
+                        "www.chipotle.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "FAST FOOD RESTAURANTS"
+                    ],
+                    "visaEnterpriseName": "CHIPOTLE MEXICAN GRILL",
+                    "primaryMerchantCategoryCode": "5814"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.025483",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "3995 24TH ST",
+                    "merchantPostalCode": "94114-3703",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5814"
+                    ],
+                    "distance": "1.8 m",
+                    "visaMerchantName": "STARBUCKS",
+                    "visaStoreName": "STARBUCKS",
+                    "locationAddressLatitude": "37.751465",
+                    "locationAddressLongitude": "-122.431788",
+                    "visaStoreId": "134415056",
+                    "visaMerchantId": "29992901",
+                    "merchantUrl": [
+                        "www.starbucks.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "FAST FOOD RESTAURANTS"
+                    ],
+                    "visaEnterpriseName": "STARBUCKS CORPORATION",
+                    "primaryMerchantCategoryCode": "5814"
+                }
             }
         ],
         "header": {
@@ -403,6 +610,267 @@ export const JSON2 = {
                     "visaStoreId": "215239680",
                     "visaMerchantId": "35217159",
                     "merchantUrl": []
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.6671953",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "648 ANDOVER ST",
+                    "merchantPostalCode": "94110-6016",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5921",
+                        "5411"
+                    ],
+                    "distance": "2.18 m",
+                    "visaMerchantName": "KERY MARKET",
+                    "visaStoreName": "KERY MARKET",
+                    "locationAddressLatitude": "37.735639",
+                    "locationAddressLongitude": "-122.416763",
+                    "visaStoreId": "120255973",
+                    "visaMerchantId": "21844071",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "PKG STORES/BEER/WINE/LIQUOR",
+                        "GROCERY STORES/SUPERMARKETS"
+                    ],
+                    "visaEnterpriseName": "KERY MARKET",
+                    "primaryMerchantCategoryCode": "5921"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.6671953",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "2999 MISSION ST",
+                    "merchantPostalCode": "94110-3917",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "MOTO"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5499",
+                        "5411"
+                    ],
+                    "distance": "2.34 m",
+                    "visaMerchantName": "CASA GUADALUPE",
+                    "visaStoreName": "CASA GUADALUPE",
+                    "locationAddressLatitude": "37.74909",
+                    "locationAddressLongitude": "-122.418214",
+                    "visaStoreId": "123333890",
+                    "visaMerchantId": "14413351",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "MISC FOOD STORES - DEFAULT",
+                        "GROCERY STORES/SUPERMARKETS"
+                    ],
+                    "visaEnterpriseName": "CASA GUADALUPE",
+                    "primaryMerchantCategoryCode": "5499"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "3.9121153",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "2341 IRVING ST",
+                    "merchantPostalCode": "94122-1620",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC",
+                        "MOTO"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5947",
+                        "5099",
+                        "5411",
+                        "5719",
+                        "5734"
+                    ],
+                    "distance": "2.47 m",
+                    "visaMerchantName": "MANGVAN SF INC",
+                    "visaStoreName": "MANGVAN SF INC",
+                    "locationAddressLatitude": "37.763336",
+                    "locationAddressLongitude": "-122.482957",
+                    "visaStoreId": "179904783",
+                    "visaMerchantId": "69147747",
+                    "merchantUrl": [
+                        "www.mangvanusa.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "GIFT, CARD, NOVELTY STORES",
+                        "DURABLE GOODS - DEFAULT",
+                        "GROCERY STORES/SUPERMARKETS",
+                        "MISC HOME FURNISHING SPECIALTY",
+                        "COMPUTER SOFTWARE STORES"
+                    ],
+                    "visaEnterpriseName": "MANGVAN SF INC",
+                    "primaryMerchantCategoryCode": ""
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "8.735601",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "200 NOE ST",
+                    "merchantPostalCode": "94114-1523",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5411"
+                    ],
+                    "distance": "2.53 m",
+                    "visaMerchantName": "NOE VALLEY MARK",
+                    "visaStoreName": "NOE GROCERIES",
+                    "locationAddressLatitude": "37.765825",
+                    "locationAddressLongitude": "-122.433255",
+                    "visaStoreId": "122929555",
+                    "visaMerchantId": "95208845",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "GROCERY STORES/SUPERMARKETS"
+                    ],
+                    "visaEnterpriseName": "NOE VALLEY MARKET",
+                    "primaryMerchantCategoryCode": "5411"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "5.6671953",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "3098 24TH ST",
+                    "merchantPostalCode": "94110-4130",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5411",
+                        "5921"
+                    ],
+                    "distance": "2.64 m",
+                    "visaMerchantName": "W AND K MARKET",
+                    "visaStoreName": "W AND K MARKET",
+                    "locationAddressLatitude": "37.752506",
+                    "locationAddressLongitude": "-122.414084",
+                    "visaStoreId": "137358070",
+                    "visaMerchantId": "36668432",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "GROCERY STORES/SUPERMARKETS",
+                        "PKG STORES/BEER/WINE/LIQUOR"
+                    ],
+                    "visaEnterpriseName": "W &amp; K MARKET",
+                    "primaryMerchantCategoryCode": "5411"
+                }
+            },
+            {
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "7.193422",
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "3046 24TH ST",
+                    "merchantPostalCode": "94110-4129",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5411",
+                        "5921"
+                    ],
+                    "distance": "2.7 m",
+                    "visaMerchantName": "MAURICE S CORNER",
+                    "visaStoreName": "MAURICE S CORNER",
+                    "locationAddressLatitude": "37.752554",
+                    "locationAddressLongitude": "-122.412941",
+                    "visaStoreId": "134419085",
+                    "visaMerchantId": "63342162",
+                    "merchantUrl": [],
+                    "merchantCategoryCodeDesc": [
+                        "GROCERY STORES/SUPERMARKETS",
+                        "PKG STORES/BEER/WINE/LIQUOR"
+                    ],
+                    "visaEnterpriseName": "MAURICE'S CORNER",
+                    "primaryMerchantCategoryCode": "5921"
                 }
             }
         ],
@@ -648,6 +1116,225 @@ export const JSON3 = {
                     "visaEnterpriseName": "WALGREENS",
                     "primaryMerchantCategoryCode": "5912"
                 }
+            },
+            {
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "4645 MISSION ST",
+                    "merchantPostalCode": "94112-2605",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC",
+                        "MOTO"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5912",
+                        "5331"
+                    ],
+                    "distance": "1.36 m",
+                    "visaMerchantName": "WALGREENS",
+                    "visaStoreName": "WALGREENS",
+                    "locationAddressLatitude": "37.723981",
+                    "locationAddressLongitude": "-122.435359",
+                    "visaStoreId": "165703404",
+                    "visaMerchantId": "32535622",
+                    "merchantUrl": [
+                        "www.walgreens.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "DRUG STORES &amp; PHARMACIES",
+                        "VARIETY STORES"
+                    ],
+                    "visaEnterpriseName": "WALGREENS",
+                    "primaryMerchantCategoryCode": "5912"
+                },
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "6.969644"
+            },
+            {
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "965 GENEVA AVE",
+                    "merchantPostalCode": "94112-3423",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5912"
+                    ],
+                    "distance": "1.56 m",
+                    "visaMerchantName": "WALGREENS",
+                    "visaStoreName": "WALGREENS",
+                    "locationAddressLatitude": "37.71593",
+                    "locationAddressLongitude": "-122.440007",
+                    "visaStoreId": "166096962",
+                    "visaMerchantId": "32535622",
+                    "merchantUrl": [
+                        "www.walgreens.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "DRUG STORES &amp; PHARMACIES"
+                    ],
+                    "visaEnterpriseName": "WALGREENS",
+                    "primaryMerchantCategoryCode": "5912"
+                },
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "8.446548"
+            },
+            {
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "1333 CASTRO ST",
+                    "merchantPostalCode": "94114-3620",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5912"
+                    ],
+                    "distance": "1.69 m",
+                    "visaMerchantName": "WALGREENS",
+                    "visaStoreName": "WALGREENS",
+                    "locationAddressLatitude": "37.751022",
+                    "locationAddressLongitude": "-122.434056",
+                    "visaStoreId": "166558008",
+                    "visaMerchantId": "32535622",
+                    "merchantUrl": [
+                        "www.walgreens.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "DRUG STORES &amp; PHARMACIES"
+                    ],
+                    "visaEnterpriseName": "WALGREENS",
+                    "primaryMerchantCategoryCode": "5912"
+                },
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "8.446548"
+            },
+            {
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "1750 NORIEGA ST",
+                    "merchantPostalCode": "94122-4308",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC",
+                        "MOTO"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5912"
+                    ],
+                    "distance": "1.95 m",
+                    "visaMerchantName": "WALGREENS",
+                    "visaStoreName": "WALGREENS",
+                    "locationAddressLatitude": "37.753965",
+                    "locationAddressLongitude": "-122.48237",
+                    "visaStoreId": "165834824",
+                    "visaMerchantId": "32535622",
+                    "merchantUrl": [
+                        "www.walgreens.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "DRUG STORES &amp; PHARMACIES"
+                    ],
+                    "visaEnterpriseName": "WALGREENS",
+                    "primaryMerchantCategoryCode": "5912"
+                },
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "8.446548"
+            },
+            {
+                "responseValues": {
+                    "merchantCountryCode": "840",
+                    "merchantStreetAddress": "3398 MISSION ST",
+                    "merchantPostalCode": "94110-5009",
+                    "merchantState": "CA",
+                    "merchantCity": "SAN FRANCISCO",
+                    "paymentAcceptanceMethod": [
+                        "F2F",
+                        "EC"
+                    ],
+                    "terminalType": [
+                        "SWIPE",
+                        "CHIP",
+                        "PAYWAVE"
+                    ],
+                    "firstTranDateRange": "In more than 365 days",
+                    "lastTranDateRange": "In last 365 days",
+                    "merchantCategoryCode": [
+                        "5912"
+                    ],
+                    "distance": "1.96 m",
+                    "visaMerchantName": "WALGREENS",
+                    "visaStoreName": "WALGREENS",
+                    "locationAddressLatitude": "37.741984",
+                    "locationAddressLongitude": "-122.42217",
+                    "visaStoreId": "165900192",
+                    "visaMerchantId": "32535622",
+                    "merchantUrl": [
+                        "www.walgreens.com"
+                    ],
+                    "merchantCategoryCodeDesc": [
+                        "DRUG STORES &amp; PHARMACIES"
+                    ],
+                    "visaEnterpriseName": "WALGREENS",
+                    "primaryMerchantCategoryCode": "5912"
+                },
+                "matchIndicators": {
+                    "merchantCountryCode": "Y",
+                    "merchantCategoryCode": "Y"
+                },
+                "matchScore": "8.446548"
             }
         ],
         "header": {
