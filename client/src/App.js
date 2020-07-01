@@ -3,6 +3,7 @@ import NavigationBar from './components/NavigationBar';
 import HomeUpperContainer from './components/HomeUpperContainer';
 import HomeLowerContainer from './components/HomeLowerContainer';
 import Footer from './components/Footer';
+import About from './components/About';
 import { JSON1, JSON2, JSON3 } from './json';
 import './index.scss';
 
@@ -12,6 +13,7 @@ export class App extends React.Component {
     this.state = {
       storeInfo: [],
       category: 'Restaurants',
+      page: 'home',
     };
   }
 
@@ -19,6 +21,13 @@ export class App extends React.Component {
     this.setState({
       category: category,
     }, () => this.processJSON());
+  }
+
+  changePage = (page) => {
+    this.setState({
+      page: page,
+      storeInfo: [],
+    });
   }
 
   getGreeting = async () => {
@@ -49,6 +58,8 @@ export class App extends React.Component {
       case 'Pharmacies':
         json = JSON3;
         break;
+      default:
+        break;
     }
     const array = json.merchantLocatorServiceResponse.response;
     for (let i = 0; i < array.length; i++) {
@@ -62,13 +73,17 @@ export class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <NavigationBar/>
-        <HomeUpperContainer getLatLng={this.getLatLng}/>
-        <HomeLowerContainer
-          center={this.state.center}
-          storeInfo={this.state.storeInfo}
-          category={this.state.category}
-          changeCategory={this.changeCategory}/>
+        <NavigationBar changePage={this.changePage}/>
+        {this.state.page === 'home'
+          ? <div>
+              <HomeUpperContainer getLatLng={this.getLatLng}/>
+              <HomeLowerContainer
+                center={this.state.center}
+                storeInfo={this.state.storeInfo}
+                category={this.state.category}
+                changeCategory={this.changeCategory}/>
+            </div>
+          : <About/>}
         <Footer/>
       </div>
     );

@@ -36,7 +36,7 @@ export class HomeLowerContainer extends React.Component {
                         <Dropdown.Item onClick={() => this.props.changeCategory('Grocery Stores')}>Grocery Stores</Dropdown.Item>
                         <Dropdown.Item onClick={() => this.props.changeCategory('Pharmacies')}>Pharmacies</Dropdown.Item>
                     </DropdownButton>
-                    <ListGroup style={{overflow: 'scroll', overflowX: 'hidden', maxHeight: '95vh', borderRadius: '0rem'}}>
+                    <ListGroup style={{overflowX: 'hidden', maxHeight: '95vh', borderRadius: '0rem'}}>
                         {stores}
                     </ListGroup>
                     </Col>
