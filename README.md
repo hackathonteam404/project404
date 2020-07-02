@@ -1,4 +1,4 @@
-# project404
+# Merchant Queue Times
 
 The intention of this project is to display the queue times for nearby restaurants, grocery stores, and pharmacies in your zip code area.
 
