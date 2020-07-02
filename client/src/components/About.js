@@ -9,12 +9,12 @@ export class About extends React.Component {
                 <Container fluid className="container-4">
                     <Row>
                         <Col>
-                        <h1 style={{paddingTop: '8vh'}}><strong>Your Health Matters</strong></h1>
+                        <h1 style={{paddingTop: '8vh', paddingBottom: '3vh'}}><strong>Your Health Matters</strong></h1>
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh', textAlign: 'left'}}>
                             Merchant Queue Times was created to enable consumers to shop safely by providing estimated wait times at nearby grocery stores and restaurants. This promotes social distancing by encouraging consumers to avoid visiting stores during busy times while relieving pressure on overcrowded stores.
                         </p>
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh', textAlign: 'left'}}>
-                            As a company that connects people everyday through innovative payment solutions, Visa is dedicated to supporting both individuals and businesses during these uncertain times. Currently, information about nearby stores and restaurants is provided by Visa. However, we see Merchant Queue Times as a target application for the Visa Queue Insights API, which could simultaneously provide trustworthy predictions as well as receive reliable feedback from users.
+                            As a company that connects people everyday through innovative payment solutions, VISA is dedicated to supporting both individuals and businesses during these uncertain times. Currently, information about nearby stores and restaurants is provided by VISA. However, we see Merchant Queue Times as a target application for the VISA Queue Insights API, which could simultaneously provide trustworthy predictions as well as receive reliable feedback from users.
                         </p>
                         </Col>
                     </Row>
