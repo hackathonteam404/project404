@@ -2883,6 +2883,9 @@ export const JSON6 = {
     }
 }
 
+// ZIP:  10005 (New York City)
+// Lat:  40.70613861
+// Lng: -74.00839233
 export const JSON7 = {
     "merchantLocatorServiceResponse": {
         "response": [
