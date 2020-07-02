@@ -9,7 +9,7 @@ export class About extends React.Component {
                 <Container fluid className="container-4">
                     <Row>
                         <Col>
-                        <h1 style={{paddingTop: '8vh'}}><strong>Your Time Matters</strong></h1>
+                        <h1 style={{paddingTop: '8vh'}}><strong>Your Health Matters</strong></h1>
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh', textAlign: 'left'}}>
                             Merchant Queue Times was created to enable consumers to shop safely by providing estimated wait times at nearby grocery stores and restaurants. This promotes social distancing by encouraging consumers to avoid visiting stores during busy times while relieving pressure on overcrowded stores.
                         </p>
@@ -27,8 +27,7 @@ export class About extends React.Component {
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Alice Han</p>
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Andrew Luwaga</p>
                         <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Hannah Bi</p>
-                        <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Harshil Patel</p>
-                        <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Vietfu Tang</p>                      
+                        <p style={{paddingLeft: '40vh', paddingRight: '40vh'}}>Vietfu Tang</p>
                         </Col>
                     </Row>
                 </Container>

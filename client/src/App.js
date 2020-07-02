@@ -4,7 +4,7 @@ import HomeUpperContainer from './components/HomeUpperContainer';
 import HomeLowerContainer from './components/HomeLowerContainer';
 import Footer from './components/Footer';
 import About from './components/About';
-import { JSON1, JSON2, JSON3 } from './json';
+import { JSON1, JSON2, JSON3, JSON4, JSON5, JSON6, JSON7, JSON8, JSON9 } from './json';
 import './index.scss';
 
 export class App extends React.Component {
@@ -42,7 +42,10 @@ export class App extends React.Component {
   getLatLng = async (zip) => {
     const response = await fetch('http://localhost:8080/test?zip=' + zip);
     const body = await response.json();
-    this.setState({center: body.results[0].geometry.location}, () => this.processJSON());
+    this.setState({
+      center: body.results[0].geometry.location,
+      zip: zip,
+    }, () => this.processJSON());
   }
 
   processJSON = () => {
@@ -50,13 +53,31 @@ export class App extends React.Component {
     let json = JSON1;
     switch (this.state.category) {
       case 'Restaurants':
-        json = JSON1;
+        if (this.state.zip === '94127') {
+          json = JSON1;
+        } else if (this.state.zip === '90012') {
+          json = JSON4;
+        } else if (this.state.zip === '10005') {
+          json = JSON7;
+        }
         break;
       case 'Grocery Stores':
-        json = JSON2;
+        if (this.state.zip === '94127') {
+          json = JSON2;
+        } else if (this.state.zip === '90012') {
+          json = JSON5;
+        } else if (this.state.zip === '10005') {
+          json = JSON8;
+        }
         break;
       case 'Pharmacies':
-        json = JSON3;
+        if (this.state.zip === '94127') {
+          json = JSON3;
+        } else if (this.state.zip === '90012') {
+          json = JSON6;
+        } else if (this.state.zip === '10005') {
+          json = JSON9;
+        }
         break;
       default:
         break;
